@@ -23,7 +23,7 @@ const BasicForm = () => {
 
   return (
     <form autoComplete="off" onSubmit={formik.handleSubmit}>
-      <label htmlFor="username">Email</label>
+      <label htmlFor="username">Username</label>
       <input id="username" 
       type="text" 
       placeholder="Enter your username" 
